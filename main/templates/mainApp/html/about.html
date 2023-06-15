@@ -1,0 +1,26 @@
+{% extends 'mainApp/html/templates.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/dataStyle.css' %}">
+<div class="intro__footer">
+        <div class="intro__footer__container">
+            <div class="intro__footer__container__image">
+                <img src="{%  static  'Images/IntroFooter/image2.png'%}" alt="">
+            </div>
+
+            <div class="intro__footer__container__info">
+                <div class="intro__footer__container__info-title">
+                   Мы данные высокого уровня<br>
+банк хранения
+                </div>
+                <div class="intro__footer__container__info-text">
+                    The place to store various data that you can access at any<br> time through the internet
+                    and where you can carry it.<br>
+                    This very flexible storage area has a high level of security.<br>
+                    To enter into your own data
+                    you must enter the password<br> that you created when you registered in this Data<br> Warehouse.
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
